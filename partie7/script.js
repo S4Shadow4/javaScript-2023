@@ -25,14 +25,17 @@ let newColors = [...colors,'green']
 console.log(newColors)
 
 //utilisation du mot clé let pour déclarer les variables en local
-var name = 'Yann'
+
+const prenom = 'julien'
+let name = 'Yann'
 
 if(1 === 1){
-    var name = 'Jacob'
+    let name = 'Jacob'
 }
 console.log(name)
+prenom ='juice'
 
-//litteral template
+// template string
 //destructuring
 
 let person = {
